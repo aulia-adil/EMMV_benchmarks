@@ -129,7 +129,7 @@ for dat in datasets:
     plt.legend(loc="lower right")
 
     plt.subplot(122)
-    print 'mv_iforest'
+    print('mv_iforest')
     auc_iforest, mv_iforest = mv(axis_alpha, volume_support,
                                  s_unif_iforest, s_X_iforest, n_generated)
     auc_lof, mv_lof = mv(axis_alpha, volume_support,
